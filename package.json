@@ -1,0 +1,23 @@
+{
+  "name": "simple-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
